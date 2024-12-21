@@ -1,0 +1,64 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Django specific
+*.log
+*.pot
+*.pyc
+*.env
+db.sqlite3
+media/
+staticfiles/
+
+# ENV files
+.env
+
+# Django migrations
+*/migrations/*.py
+!*/migrations/__init__.py
+
+# Node modules (React)
+node_modules/
+
+# Build output (React)
+build/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+*.swp
+*.swo
+
+# IDEs and editors
+.vscode/
+.idea/
+*.iml
+
+# Testing and coverage
+coverage/
+htmlcov/
+*.cover
+*.py,cover
+.cache
+nosetests.xml
+coverage.xml
+*.mo
+
+# Gitignore for React
+*.lock
+package-lock.json
+yarn.lock
+
+# Temporary files and backups
+*.bak
+*.orig
+*.tmp
+
+# Pipenv and virtual environments
+Pipfile
+Pipfile.lock
+notesenv/
